@@ -1,0 +1,18 @@
+{
+    "name": "pavlo/string-calculator",
+    "authors": [
+        {
+            "name": "pavlo",
+            "email": "pavelnemoi@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "^5.1"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    }
+}
