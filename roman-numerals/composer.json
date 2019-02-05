@@ -1,0 +1,15 @@
+{
+    "name": "pavel/roman-numerals",
+    "authors": [
+        {
+            "name": "Pavel Nemchenko",
+            "email": "pavelnemoi@gmail.com"
+        }
+    ],
+    "require": {
+        "phpspec/phpspec": "^5.1"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}

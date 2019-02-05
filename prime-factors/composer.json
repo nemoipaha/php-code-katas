@@ -1,0 +1,16 @@
+{
+    "name": "pavel/code-katas",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pavel Nemchenko",
+            "email": "pavelnemoi@gmail.com"
+        }
+    ],
+    "require": {
+        "phpspec/phpspec": "^5.1"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    }
+}
