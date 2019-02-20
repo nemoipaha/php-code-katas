@@ -2,17 +2,8 @@
 
 namespace App;
 
-final class Backstage
+final class Backstage extends Item
 {
-    public $quality;
-    public $sellIn;
-
-    public function __construct(int $quality, int $sellIn)
-    {
-        $this->quality = $quality;
-        $this->sellIn = $sellIn;
-    }
-
     public function tick()
     {
         $this->sellIn -= 1;

@@ -2,17 +2,8 @@
 
 namespace App;
 
-final class Brie
+final class Brie extends Item
 {
-    public $quality;
-    public $sellIn;
-
-    public function __construct(int $quality, int $sellIn)
-    {
-        $this->quality = $quality;
-        $this->sellIn = $sellIn;
-    }
-
     public function tick()
     {
         $this->sellIn -= 1;
